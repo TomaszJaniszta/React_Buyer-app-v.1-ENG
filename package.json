@@ -1,5 +1,5 @@
 {
-  "name": "Buyer-app-v.1",
+  "name": "buyer-app-v.1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "The application contains a defined list of products in the src / common / consts / products.js file.\r The left column (of available products) displays a list of products from the products.js file as an unnumbered list (we only display the name).\r Left-clicking on one of the products adds it to the 'shopping list'.\r The right column displays the current shopping list.\r After clicking on any product from the list of available products, it will appear on the shopping list \r (the selected element does not disappear from the list of available products).\r It is possible to choose the same product multiple times.\r Left-clicking on any item from the shopping list removes it from the list \r (this simulates a situation in which someone threw the product into the shopping cart and removed it from the shopping list).\r The list on the left can be filtered to find the product you are interested in in a short time."
+  "description": "The application contains a defined list of products in the src / common / consts / products.js file.\r The left column (of available products) displays a list of products from the products.js file as an unnumbered list (we only display the name).\r Left-clicking on one of the products adds it to the 'shopping list'.\r The right column displays the current shopping list.\r After clicking on any product from the list of available products, it will appear on the shopping list \r (the selected element does not disappear from the list of available products).\r It is possible to choose the same product multiple times.\r Left-clicking on any item from the shopping list removes it from the list \r (this simulates a situation in which someone threw the product into the shopping cart and removed it from the shopping list).\r The list on the left can be filtered to find the product you are interested in in a short time.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszJaniszta/React_Buyer-app-v.1-ENG.git"
+  }
 }

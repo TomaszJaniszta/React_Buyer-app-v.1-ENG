@@ -72,17 +72,20 @@ function App() {
     <div className={styles.appWrapper}>
       <br />
       <div align="center">
-        <h1 className={styles.title} >Aplikacja zakupownik</h1>
+        <h1 className={styles.title}>Buyer app</h1>
       </div>
       <p className={styles.description}>
-        Aplikacja zakupownik umożliwia stworzenie listy zakupowej z produktów z
-        menu. Produkty do menu z kolei możemy dodawać poprzez panel w górnej
-        części wypełniając pola: nazwa, kategoria, typ produktu (produkt
-        spożywczy / nie spożywczy). Pole filtrów umożliwia filtrowanie produktów
-        z menu także po wymienionych polach.
+        The buyer application allows you to create a shopping list from products
+        from menu. Products to the menu, in turn, can be added through the panel
+        in the top parts filling in the fields: name, category, product type
+        (product food / non-food). Filter field allows you to filter products
+        from the menu also after the listed fields.
       </p>
       <p className={styles.description}>
-        Z menu po lewej prawym przyciskiem myszy dodajemy produkty do "Twojej listy zakupów". Na liście zakupów prawym przyciskiem myszy usuwamy dodany produkt, lub lewym przekreślamy go. Ponowne kliknięcie lewym przyciskiem likwiduje przekreślenie.
+        From the menu on the left, we add products to "your shopping list". In
+        the shopping list, right-click to remove the added product, or left
+        cross it out. Clicking the left button again eliminates the
+        strikethrough.
       </p>
       <AddProduct addProduct={addProduct} />
       <ProductFilters

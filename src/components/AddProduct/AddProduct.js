@@ -19,7 +19,7 @@ function AddProduct({ addProduct }) {
     <div align="center">
       <div className={styles.AddProducts}>
         <label>
-          {'Nazwa: '}
+          {'Name: '}
           <input
             className={styles.input}
             type="text"
@@ -29,7 +29,7 @@ function AddProduct({ addProduct }) {
           />
         </label>
         <label className={styles.inputs}>
-          {'Kategoria: '}
+          {'Category: '}
           <input
             type="text"
             name="category"
@@ -38,7 +38,7 @@ function AddProduct({ addProduct }) {
           />
         </label>
         <label className={styles.inputs}>
-          {'Produkt spożywczy: '}
+          {'Food product: '}
           <input
             type="checkbox"
             checked={isFood}
@@ -51,7 +51,7 @@ function AddProduct({ addProduct }) {
           disabled={btnDisabled}
           onClick={onAddProduct}
         >
-          Dodaj produkt
+          Add product
         </button>
       </div>
     </div>

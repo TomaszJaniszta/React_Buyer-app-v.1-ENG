@@ -11,7 +11,7 @@ function ShopingList({ shoppingList, removeFromShoppingList, onToggleBought }) {
       <br />
       <div className={commonColumnsStyles.title}>
         <b>
-          <i>Twoja lista zakupów:</i>
+          <i>Your shopping list:</i>
         </b>
       </div>
       <div className={commonColumnsStyles.list}>

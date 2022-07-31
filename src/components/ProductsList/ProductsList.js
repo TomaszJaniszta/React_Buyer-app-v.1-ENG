@@ -9,7 +9,7 @@ class ProductsList extends React.Component {
         <br />
         <div className={commonColumnsStyles.title}>
           <b>
-            <i>Twoja lista produktów:</i>
+            <i>Your product list: </i>
           </b>
         </div>
         <div>
@@ -17,7 +17,7 @@ class ProductsList extends React.Component {
             <i>
               {filteredProducts.map((product) => (
                 <li
-                className={commonColumnsStyles.productList}
+                  className={commonColumnsStyles.productList}
                   key={Math.random()}
                   onClick={() => addToShoppingList(product.nazwa)}
                 >

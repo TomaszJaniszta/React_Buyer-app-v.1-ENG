@@ -36,11 +36,11 @@ function ProductsFilters({ productsList, filterProducts }) {
     <div align="center">
       <div className={styles.FilterProducts}>
         <label>
-          {'Wpisz nazwę lub część nazwy by wyszukać produkty: '}
+          {'Enter a name or part of a name to search for products: '}
           <input value={searchValue} onChange={onChangeSearchValue} />
         </label>
         <label className={styles.inputs}>
-          {'Wybierz kategorię do znalezienia: '}
+          {'Select the category you want to see: '}
           <select onChange={onSelectCategory}>
             <option key={'default'} value={''}></option>
             {uniqueCategories.map((category) => (
@@ -51,7 +51,7 @@ function ProductsFilters({ productsList, filterProducts }) {
           </select>
         </label>
         <label className={styles.inputs}>
-          {'Produkty spozywcze: '}
+          {'Food product: '}
           <input
             type="checkbox"
             value={isFoodCategory}
