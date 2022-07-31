@@ -1,4 +1,6 @@
-# React_Buyer-app-v.1
+# React_Buyer-app-v.1 ENG
+
+Version with english menu.
 
 The application contains a defined list of products in the src / common / consts / products.js file.
 The left column (of available products) displays a list of products from the products.js file as an unnumbered list (we only display the name).
